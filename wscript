@@ -60,6 +60,5 @@ def build(bld):
            uselibs=uselibs,
            source=example_src,
            uselib=uselibs,
-           install_path='${BINDIR}',
            target=os.path.splitext(example_src)[0]
        )
