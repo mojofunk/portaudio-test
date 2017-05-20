@@ -4,8 +4,8 @@ import os
 
 from waflib import Options, Logs
 
-APPNAME = 'portaudio'
-VERSION = '2.0'
+APPNAME = 'portaudio-test'
+VERSION = '1.0'
 
 out = 'waf-build'
 
